@@ -33,8 +33,13 @@ $topicsBody = @{
 } | ConvertTo-Json -Compress
 
 Write-Host "Updating topics..."
+$topicHeaders = @{
+    Authorization = "Bearer $token"
+    Accept        = "application/vnd.github+json"
+    "X-GitHub-Api-Version" = "2022-11-28"
+}
 Invoke-RestMethod -Method Put -Uri "https://api.github.com/repos/DisvarAli/SputnikVPN/topics" `
-    -Headers ($headers + @{ Accept = "application/vnd.github+json" }) `
+    -Headers $topicHeaders `
     -Body ([Text.Encoding]::UTF8.GetBytes($topicsBody)) `
     -ContentType "application/json; charset=utf-8" | Out-Null
 
