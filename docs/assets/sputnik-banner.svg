@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071A1D"/>
+      <stop offset="0.55" stop-color="#0D2F34"/>
+      <stop offset="1" stop-color="#123A40"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="640" y1="40" x2="640" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4DD0E1" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4DD0E1" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(920 210) scale(180)">
+      <stop stop-color="#76BEBD" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#76BEBD" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <rect width="1280" height="420" fill="url(#glow)"/>
+  <circle cx="920" cy="210" r="180" fill="url(#orb)"/>
+
+  <!-- orbit ring -->
+  <ellipse cx="920" cy="210" rx="150" ry="48" stroke="#4DD0E1" stroke-width="2" opacity="0.35" transform="rotate(-24 920 210)"/>
+  <circle cx="920" cy="210" r="78" stroke="#76BEBD" stroke-width="3" opacity="0.85"/>
+  <circle cx="920" cy="210" r="42" fill="#4DD0E1" fill-opacity="0.12"/>
+  <circle cx="920" cy="210" r="22" fill="#76BEBD"/>
+  <circle cx="1048" cy="158" r="9" fill="#F2F2F4"/>
+  <path d="M1036 166 C1018 178 998 190 978 198" stroke="#4DD0E1" stroke-width="2.4" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- brand -->
+  <text x="88" y="168" fill="#F4FBFA" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="1.5">Sputnik VPN</text>
+  <text x="88" y="220" fill="#9FD9D6" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="500">Android · Xray · 75@:0;0 4;O  $</text>
+  <text x="88" y="270" fill="#7AA8A6" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="18">2.1.0 · >B:@KBK9 :;85=B · 157 Google Play</text>
+</svg>

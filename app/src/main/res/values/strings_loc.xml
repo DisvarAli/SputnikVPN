@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Themes -->
+    <string name="theme_dark_standard">Тёмная</string>
+    <string name="theme_dark_red">Тёмная (красная)</string>
+    <string name="theme_light">Дневная</string>
+    <string name="theme_system">Как в системе</string>
+
+    <!-- Split tunnel -->
+    <string name="split_tunnel_mode_full">Весь трафик через VPN</string>
+    <string name="split_tunnel_mode_apps">Только выбранные приложения</string>
+
+    <!-- Config test -->
+    <string name="config_test_tcp">Быстрый (TCP)</string>
+    <string name="config_test_full">Полный (TCP + VPN-тест)</string>
+    <string name="config_test_proxy">Только VPN-тест</string>
+
+    <!-- Bypass modes -->
+    <string name="bypass_off">Выкл</string>
+    <string name="bypass_auto">Авто</string>
+    <string name="bypass_manual">Вручную</string>
+    <string name="dpi_light">Лёгкий</string>
+    <string name="dpi_medium">Средний</string>
+    <string name="dpi_aggressive">Сильный</string>
+    <string name="ttl_manual">Вручную</string>
+
+    <!-- List filters -->
+    <string name="filter_all_configs">Все конфиги</string>
+    <string name="filter_custom_subscription">Своя подписка</string>
+    <string name="filter_protocol">Протокол</string>
+    <string name="filter_pick_list">Выберите список</string>
+    <string name="filter_current">Сейчас: %1$s</string>
+
+    <!-- Main screen -->
+    <string name="loading_configs">Загрузка конфигов…</string>
+    <string name="tab_subscriptions_short">Подписки</string>
+    <string name="subscription_traffic">Трафик подписки</string>
+    <string name="empty_subscription_servers">В этой подписке пока нет серверов.\nВыберите другую подписку или потяните вниз для пинга.</string>
+    <string name="empty_configs_pull">Конфиги не найдены.\nПотяните вниз для проверки пинга.</string>
+    <string name="expand">Развернуть</string>
+    <string name="collapse">Свернуть</string>
+    <string name="show">Показать</string>
+    <string name="hide">Скрыть</string>
+    <string name="server_active">Активный</string>
+    <string name="servers_count">%1$d серв.</string>
+    <string name="help_required_title">Обязательно прочитайте инструкцию</string>
+    <string name="help_required_body">Перед подключением откройте «Помощь»: зеркала, список серверов, метки пинга (TCP/VPN) и типичные проблемы.</string>
+    <string name="data_cleared_title">Данные удалены</string>
+    <string name="data_cleared_body">Все конфиги и настройки очищены.\n\nСписок серверов загружается заново автоматически.</string>
+    <string name="understood">Понятно</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_next">Далее</string>
+    <string name="onboarding_start">Начать пользоваться</string>
+    <string name="onboarding_step">Шаг %1$d из 3</string>
+    <string name="onboarding_welcome_title">Добро пожаловать\nв проект Sputnik VPN</string>
+    <string name="onboarding_welcome_body">Открытый VPN-клиент: загрузка публичных конфигов через зеркала, выбор сервера и подключение через Xray.</string>
+    <string name="onboarding_owner">Владелец проекта:</string>
+    <string name="onboarding_inspiration">Вдохновение (подписки):</string>
+    <string name="onboarding_inspiration_hint">(Клик — репозиторий на GitHub)</string>
+    <string name="onboarding_permissions_title">Разрешения</string>
+    <string name="onboarding_permissions_intro">Для работы приложению нужны следующие разрешения. Мы запрашиваем только то, что необходимо.</string>
+    <string name="onboarding_perm_vpn_title">VPN-подключение</string>
+    <string name="onboarding_perm_vpn_body">Основное разрешение Android для создания защищённого туннеля. Без него невозможно направить трафик телефона через VPN. Запрашивается при первом нажатии «Подключиться».</string>
+    <string name="onboarding_perm_inet_title">Доступ в интернет</string>
+    <string name="onboarding_perm_inet_body">Нужен для загрузки конфигов с зеркал (GitLab, GitHack и др.) и подключения к VPN-серверам.</string>
+    <string name="onboarding_perm_notif_title">Уведомления</string>
+    <string name="onboarding_perm_notif_body">Показывают статус VPN в строке состояния: страну сервера и трафик. Можно отключить в настройках Android.</string>
+    <string name="onboarding_perm_bg_title">Работа в фоне</string>
+    <string name="onboarding_perm_bg_body">VPN-сервис работает в фоне, пока вы подключены, чтобы трафик не прерывался при сворачивании приложения.</string>
+    <string name="onboarding_agreement_title">Пользовательское соглашение</string>
+    <string name="onboarding_agree_p1">Sputnik VPN — открытый клиент для доступа к сетевым ресурсам при ограничениях связи.</string>
+    <string name="onboarding_agree_p2">Приложение загружает открытые конфиги с зеркал github.com/igareck/vpn-configs-for-russia (@igareck — вдохновение проекта). Владелец (@DisvarAli) не аффилирован с автором подписок и не контролирует сторонние серверы.</string>
+    <string name="onboarding_agree_p3">Мы не собираем статистику, аналитику и телеметрию — настройки и кэш остаются на устройстве.</string>
+    <string name="onboarding_agree_p4">Используя Sputnik VPN, вы понимаете, что:</string>
+    <string name="onboarding_agree_b1">• VPN-сервисы могут использоваться только в законных целях</string>
+    <string name="onboarding_agree_b2">• Скорость и стабильность зависят от сервера, оператора и сети</string>
+    <string name="onboarding_agree_b3">• Публичные конфиги предоставляются без гарантий стабильности</string>
+    <string name="onboarding_agree_p5">Нажимая «Начать пользоваться», вы соглашаетесь с этими условиями и подтверждаете, что используете приложение на свой страх и риск.</string>
+
+    <!-- ViewModel status (main UI) -->
+    <string name="msg_load_configs_hint">Загрузите конфиги кнопкой обновления</string>
+    <string name="msg_loading_all_subs">Загрузка всех подписок…</string>
+    <string name="msg_cache_updated">Кэш обновлён с GitHub</string>
+    <string name="msg_pinging">Проверка пинга…</string>
+    <string name="msg_ping_updated">Пинг обновлён</string>
+    <string name="msg_vpn_permission">Нужно разрешение VPN</string>
+    <string name="msg_no_protocol_servers">Нет серверов с протоколом %1$s</string>
+    <string name="msg_no_servers_in_sub">Нет серверов в выбранной подписке</string>
+    <string name="msg_tunnel_failover">Туннель не отвечает, переключение…</string>
+    <string name="msg_connection_lost">Соединение потеряно. Автопереключение выключено в меню.</string>
+    <string name="msg_checking_server">Проверка: %1$s…</string>
+    <string name="msg_no_working_configs">Нет рабочих конфигов в текущем списке</string>
+    <string name="msg_refresh_ping_hint">Обновите пинг («Все конфиги») или загрузку в меню</string>
+    <string name="msg_vpn_permission_reconnect">Нужно разрешение VPN для переподключения</string>
+
+    <!-- Subscription titles -->
+    <string name="sub_black_mobile">Чёрный список</string>
+    <string name="sub_black_vless">Чёрный VLESS</string>
+    <string name="sub_black_ss">Чёрный SS</string>
+    <string name="sub_white_1">Белый список #1</string>
+    <string name="sub_white_2">Белый список #2</string>
+    <string name="sub_white_sni">Белый SNI</string>
+    <string name="sub_white_cidr">Белый CIDR</string>
+    <string name="sub_white_cidr_checked">CIDR проверен</string>
+
+    <string name="stats_vpn_transport_yes">да</string>
+    <string name="stats_vpn_transport_no">нет</string>
+    <string name="bypass_direct_doh">Прямой DoH</string>
+    <string name="bypass_proxy_doh">Прокси DoH</string>
+</resources>

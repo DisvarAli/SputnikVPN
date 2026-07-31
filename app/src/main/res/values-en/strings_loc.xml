@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_dark_standard">Dark</string>
+    <string name="theme_dark_red">Dark (red)</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_system">System default</string>
+
+    <string name="split_tunnel_mode_full">All traffic via VPN</string>
+    <string name="split_tunnel_mode_apps">Selected apps only</string>
+
+    <string name="config_test_tcp">Fast (TCP)</string>
+    <string name="config_test_full">Full (TCP + VPN test)</string>
+    <string name="config_test_proxy">VPN test only</string>
+
+    <string name="bypass_off">Off</string>
+    <string name="bypass_auto">Auto</string>
+    <string name="bypass_manual">Manual</string>
+    <string name="dpi_light">Light</string>
+    <string name="dpi_medium">Medium</string>
+    <string name="dpi_aggressive">Aggressive</string>
+    <string name="ttl_manual">Manual</string>
+
+    <string name="filter_all_configs">All configs</string>
+    <string name="filter_custom_subscription">Custom subscription</string>
+    <string name="filter_protocol">Protocol</string>
+    <string name="filter_pick_list">Choose a list</string>
+    <string name="filter_current">Current: %1$s</string>
+
+    <string name="loading_configs">Loading configs…</string>
+    <string name="tab_subscriptions_short">Subscriptions</string>
+    <string name="subscription_traffic">Subscription traffic</string>
+    <string name="empty_subscription_servers">No servers in this subscription yet.\nPick another list or pull down to refresh ping.</string>
+    <string name="empty_configs_pull">No configs found.\nPull down to run ping check.</string>
+    <string name="expand">Expand</string>
+    <string name="collapse">Collapse</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+    <string name="server_active">Active</string>
+    <string name="servers_count">%1$d srv.</string>
+    <string name="help_required_title">Please read the help section</string>
+    <string name="help_required_body">Before connecting, open Help: mirrors, server list, ping labels (TCP/VPN), and common fixes.</string>
+    <string name="data_cleared_title">Data cleared</string>
+    <string name="data_cleared_body">All configs and settings were cleared.\n\nThe server list will reload automatically.</string>
+    <string name="understood">Got it</string>
+
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_start">Get started</string>
+    <string name="onboarding_step">Step %1$d of 3</string>
+    <string name="onboarding_welcome_title">Welcome to\nSputnik VPN</string>
+    <string name="onboarding_welcome_body">Open VPN client: loads public configs via mirrors, lets you pick a server, and connects with Xray.</string>
+    <string name="onboarding_owner">Project owner:</string>
+    <string name="onboarding_inspiration">Inspiration (subscriptions):</string>
+    <string name="onboarding_inspiration_hint">(Tap to open on GitHub)</string>
+    <string name="onboarding_permissions_title">Permissions</string>
+    <string name="onboarding_permissions_intro">The app needs the permissions below. We only request what is required.</string>
+    <string name="onboarding_perm_vpn_title">VPN connection</string>
+    <string name="onboarding_perm_vpn_body">Android permission to create a secure tunnel. Without it, traffic cannot go through the VPN. Requested on first Connect.</string>
+    <string name="onboarding_perm_inet_title">Internet access</string>
+    <string name="onboarding_perm_inet_body">Required to download configs from mirrors (GitLab, GitHack, etc.) and reach VPN servers.</string>
+    <string name="onboarding_perm_notif_title">Notifications</string>
+    <string name="onboarding_perm_notif_body">Show VPN status in the status bar: server country and traffic. Can be disabled in Android settings.</string>
+    <string name="onboarding_perm_bg_title">Background operation</string>
+    <string name="onboarding_perm_bg_body">The VPN service stays active in the background while connected so traffic is not interrupted.</string>
+    <string name="onboarding_agreement_title">Terms of use</string>
+    <string name="onboarding_agree_p1">Sputnik VPN is an educational project for accessing network resources where restrictions apply.</string>
+    <string name="onboarding_agree_p2">The app loads public configs from mirrors of github.com/igareck/vpn-configs-for-russia. The maintainer (@DisvarAli) is not affiliated with subscription authors and does not operate third-party servers.</string>
+    <string name="onboarding_agree_p3">We do not collect analytics or telemetry — settings and cache stay on your device.</string>
+    <string name="onboarding_agree_p4">By using Sputnik VPN you understand that:</string>
+    <string name="onboarding_agree_b1">• VPN must be used for lawful purposes only</string>
+    <string name="onboarding_agree_b2">• Speed and stability depend on the server, carrier, and network blocks</string>
+    <string name="onboarding_agree_b3">• Public configs are provided without stability guarantees</string>
+    <string name="onboarding_agree_p5">By tapping Get started you accept these terms and use the app at your own risk.</string>
+
+    <string name="msg_load_configs_hint">Load configs with the refresh button</string>
+    <string name="msg_loading_all_subs">Loading all subscriptions…</string>
+    <string name="msg_cache_updated">Cache updated from GitHub</string>
+    <string name="msg_pinging">Checking ping…</string>
+    <string name="msg_ping_updated">Ping updated</string>
+    <string name="msg_vpn_permission">VPN permission required</string>
+    <string name="msg_no_protocol_servers">No servers with protocol %1$s</string>
+    <string name="msg_no_servers_in_sub">No servers in the selected subscription</string>
+    <string name="msg_tunnel_failover">Tunnel unresponsive, switching server…</string>
+    <string name="msg_connection_lost">Connection lost. Auto-failover is disabled in menu.</string>
+    <string name="msg_checking_server">Checking: %1$s…</string>
+    <string name="msg_no_working_configs">No working configs in the current list</string>
+    <string name="msg_refresh_ping_hint">Refresh ping (All configs) or reload lists in menu</string>
+    <string name="msg_vpn_permission_reconnect">VPN permission is required to reconnect</string>
+
+    <string name="sub_black_mobile">Black list (mobile)</string>
+    <string name="sub_black_vless">Black VLESS</string>
+    <string name="sub_black_ss">Black SS</string>
+    <string name="sub_white_1">White list #1</string>
+    <string name="sub_white_2">White list #2</string>
+    <string name="sub_white_sni">White SNI</string>
+    <string name="sub_white_cidr">White CIDR</string>
+    <string name="sub_white_cidr_checked">CIDR checked</string>
+
+    <string name="stats_vpn_transport_yes">yes</string>
+    <string name="stats_vpn_transport_no">no</string>
+    <string name="bypass_direct_doh">Direct DoH</string>
+    <string name="bypass_proxy_doh">Proxy DoH</string>
+</resources>

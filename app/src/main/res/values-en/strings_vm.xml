@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bypass_probe_start">Starting…</string>
+    <string name="bypass_probe_done">Done. Tap Save and apply — server ping will run separately.</string>
+    <string name="bypass_fetch_loading">Looking for a working mirror…</string>
+    <string name="bypass_fetch_done">Configs loaded via mirror</string>
+    <string name="bypass_ping_servers">Checking servers…</string>
+    <string name="bypass_progress">%1$d / %2$d — %3$s</string>
+    <string name="bypass_pick_server_sni">Select a server to pick SNI</string>
+    <string name="bypass_saved_applied">Saved and applied to the server list.</string>
+    <string name="bypass_presets_sni">Presets: %1$s…</string>
+
+    <string name="sub_enter_title">Enter a title</string>
+    <string name="sub_empty_file_qr">Empty file or QR code</string>
+    <string name="sub_import_failed">Import failed</string>
+    <string name="sub_enter_url">Enter an http(s) subscription URL</string>
+    <string name="sub_checking">Checking…</string>
+    <string name="sub_github_changed">GitHub has updates. Tap Refresh all subscriptions.</string>
+    <string name="sub_github_match">GitHub subscriptions match the cache.</string>
+    <string name="sub_loading_named">Loading «%1$s»…</string>
+    <string name="sub_cached_named">«%1$s» in cache</string>
+    <string name="sub_added_named">«%1$s» added</string>
+    <string name="sub_deleted">Subscription removed</string>
+
+    <string name="msg_app_update_check_disabled">Update checks are disabled</string>
+    <string name="msg_app_update_checking">Checking release…</string>
+    <string name="msg_app_update_github_fail">Could not check GitHub</string>
+    <string name="msg_app_update_current">You are on the latest version (%1$s)</string>
+    <string name="msg_app_update_dismissed">Version %1$s was already dismissed</string>
+    <string name="msg_app_update_available">%1$s available (current %2$s)</string>
+    <string name="msg_app_update_postponed">Reminder postponed</string>
+    <string name="msg_app_update_auto_off">Auto-check disabled</string>
+    <string name="msg_app_update_downloading">Downloading APK…</string>
+    <string name="msg_app_update_open_installer">Open the APK installer</string>
+    <string name="msg_app_update_download_error">APK download failed</string>
+
+    <string name="cache_full_check_scheduled">Full cache check scheduled (background)</string>
+    <string name="cache_checking">Checking cache…</string>
+    <string name="cache_reping">Re-pinging cache…</string>
+    <string name="cache_checked">Cache checked</string>
+
+    <string name="protocol_no_connect">Protocol %1$s is not supported for connect yet</string>
+    <string name="protocol_list_only">Protocol %1$s is list-only (no VPN) for now</string>
+    <string name="reconnect_tunnel_fail">Could not reconnect or verify the tunnel</string>
+    <string name="invalid_server_link">Invalid server link: %1$s</string>
+    <string name="vpn_setup_tunnel_fail">Could not start VPN or verify internet through the tunnel</string>
+    <string name="vpn_interface_fail">Could not create the VPN interface. Disable other VPN apps, restart SputnikVPN, and confirm the VPN permission.</string>
+    <string name="msg_tunnel_degraded">Connected, but internet through the tunnel was not confirmed. Try another server.</string>
+</resources>

@@ -1,0 +1,41 @@
+# Gradle
+.gradle/
+build/
+**/build/
+.kotlin/
+
+# Локальные настройки (не для Git)
+local.properties
+keystore.properties
+*.jks
+*.keystore
+release-keystore.jks
+
+# Нативное ядро — скачивается скриптом (не для Git)
+app/libs/*.aar
+app/libs/*.jar
+!app/libs/.gitkeep
+# Android Studio
+.idea/
+*.iml
+/captures
+.externalNativeBuild/
+.cxx/
+
+# Сборки
+*.apk
+*.aab
+Sputnik-VPN-*.apk
+/release-notes-*.md
+!docs/release-notes-*.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / editor (не для репозитория)
+.cursor/
+**/.cursor/
+
+# Локальные логи отладки
+logcat.txt

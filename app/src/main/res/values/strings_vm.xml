@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bypass probe / fetch -->
+    <string name="bypass_probe_start">Старт…</string>
+    <string name="bypass_probe_done">Готово. Нажмите «Сохранить и применить» — пинг серверов запустится отдельно.</string>
+    <string name="bypass_fetch_loading">Поиск рабочего зеркала…</string>
+    <string name="bypass_fetch_done">Конфиги загружены через зеркало</string>
+    <string name="bypass_ping_servers">Проверка серверов…</string>
+    <string name="bypass_progress">%1$d / %2$d — %3$s</string>
+    <string name="bypass_pick_server_sni">Выберите сервер для подбора SNI</string>
+    <string name="bypass_saved_applied">Сохранено и применено к списку серверов.</string>
+    <string name="bypass_presets_sni">Пресеты: %1$s…</string>
+
+    <!-- Custom subscriptions -->
+    <string name="sub_enter_title">Введите название</string>
+    <string name="sub_empty_file_qr">Пустой файл или QR</string>
+    <string name="sub_import_failed">Не удалось импортировать</string>
+    <string name="sub_enter_url">Укажите ссылку http(s) на подписку</string>
+    <string name="sub_checking">Проверка…</string>
+    <string name="sub_github_changed">На GitHub есть изменения. Нажмите «Обновить все подписки».</string>
+    <string name="sub_github_match">Подписки на GitHub совпадают с кэшем.</string>
+    <string name="sub_loading_named">Загрузка «%1$s»…</string>
+    <string name="sub_cached_named">«%1$s» в кэше</string>
+    <string name="sub_added_named">«%1$s» добавлена</string>
+    <string name="sub_deleted">Подписка удалена</string>
+
+    <!-- App update (status line in ViewModel) -->
+    <string name="msg_app_update_check_disabled">Проверка обновлений отключена</string>
+    <string name="msg_app_update_checking">Проверка релиза…</string>
+    <string name="msg_app_update_github_fail">Не удалось проверить GitHub</string>
+    <string name="msg_app_update_current">Установлена актуальная версия (%1$s)</string>
+    <string name="msg_app_update_dismissed">Версия %1$s уже отклонена</string>
+    <string name="msg_app_update_available">Доступна %1$s (сейчас %2$s)</string>
+    <string name="msg_app_update_postponed">Напоминание отложено</string>
+    <string name="msg_app_update_auto_off">Автопроверка отключена</string>
+    <string name="msg_app_update_downloading">Загрузка APK…</string>
+    <string name="msg_app_update_open_installer">Откройте установщик APK</string>
+    <string name="msg_app_update_download_error">Ошибка загрузки APK</string>
+
+    <!-- Cache / recovery -->
+    <string name="cache_full_check_scheduled">Полная проверка кэша запланирована (фон)</string>
+    <string name="cache_checking">Проверка кэша…</string>
+    <string name="cache_reping">Повторный пинг кэша…</string>
+    <string name="cache_checked">Кэш проверен</string>
+
+    <!-- Connection -->
+    <string name="protocol_no_connect">Протокол %1$s пока без подключения</string>
+    <string name="protocol_list_only">Протокол %1$s пока только в списке (без VPN)</string>
+    <string name="reconnect_tunnel_fail">Не удалось переподключиться или проверить туннель</string>
+    <string name="invalid_server_link">Некорректная ссылка сервера: %1$s</string>
+    <string name="vpn_setup_tunnel_fail">Не удалось установить VPN или пройти проверку интернета через туннель</string>
+    <string name="vpn_interface_fail">Не удалось создать VPN-интерфейс. Отключите другой VPN, перезапустите приложение и подтвердите разрешение VPN.</string>
+    <string name="msg_tunnel_degraded">Подключено, но интернет через туннель не подтверждён. Попробуйте другой сервер.</string>
+</resources>
