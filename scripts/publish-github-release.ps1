@@ -25,7 +25,13 @@ $headers = @{
 
 $release = Invoke-RestMethod -Uri "https://api.github.com/repos/DisvarAli/SputnikVPN/releases/tags/$Tag" -Headers $headers
 
-$notesPath = Join-Path $root "docs\release-notes-$($Tag.TrimStart('v')).md"
+$notesPath = Join-Path $root "docs\release-notes-$Tag.md"
+if (-not (Test-Path $notesPath)) {
+    $notesPath = Join-Path $root "docs\release-notes-v$($Tag.TrimStart('v')).md"
+}
+if (-not (Test-Path $notesPath)) {
+    $notesPath = Join-Path $root "docs\release-notes-$($Tag.TrimStart('v')).md"
+}
 if (Test-Path $notesPath) {
     $notes = [IO.File]::ReadAllText($notesPath, [Text.UTF8Encoding]::new($false))
     $patch = @{ body = $notes } | ConvertTo-Json -Compress

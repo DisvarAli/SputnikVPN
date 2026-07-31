@@ -31,7 +31,13 @@ if (-not $SkipPush) {
     Write-Host "Pushed: https://github.com/DisvarAli/SputnikVPN"
 }
 
-$notesPath = Join-Path $root "docs\release-notes-$($Tag.TrimStart('v')).md"
+$notesPath = Join-Path $root "docs\release-notes-$Tag.md"
+if (-not (Test-Path $notesPath)) {
+    $notesPath = Join-Path $root "docs\release-notes-$($Tag.TrimStart('v')).md"
+}
+if (-not (Test-Path $notesPath)) {
+    $notesPath = Join-Path $root "docs\release-notes-v$($Tag.TrimStart('v')).md"
+}
 $body = if (Test-Path $notesPath) {
     [IO.File]::ReadAllText($notesPath, [Text.UTF8Encoding]::new($false))
 } else {
